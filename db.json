@@ -1,0 +1,66 @@
+{
+    "events": [
+        {
+            "id": "id",
+            "name": "Here would be the long and boring title of the event...",
+            "user": "very-unique-id",
+            "questions": [
+                {
+                    "id": "this-question-id-would-be-uuid",
+                    "name": "Hey, answer this!!!",
+                    "type": "MultipleChoiceQuestion",
+                    "order": 100,
+                    "minOptions": 1,
+                    "maxOptions": 2,
+                    "options": [
+                        {
+                            "id": "m-this-is-very-unique-option-id",
+                            "name": "M This is an option."
+                        },
+                        {
+                            "id": "mm-this-is-an-other-very-unique-option-id",
+                            "name": "MM This is another option."
+                        },
+                        {
+                            "id": "mmm-this-is-an-other-very-very-unique-option-id",
+                            "name": "MMM This is yet another option."
+                        }
+
+                    ],
+                    "answers": [
+                        
+                    ]
+                },
+                {
+                    "id": "this-question-id-would-also-be-uuid",
+                    "name": "Hey, answer this too!!!",
+                    "type": "SingleChoiceQuestion",
+                    "order": 1,
+                    "options": [
+                        {
+                            "id": "s-this-is-very-unique-option-id",
+                            "name": "S This is an option for singles. ;)"
+                        },
+                        {
+                            "id": "ss-this-is-an-other-very-unique-option-id",
+                            "name": "S This is another option for singles. ;)"
+                        }
+
+                    ],
+                    "answers": [
+                        
+                    ]
+                },
+                {
+                    "id": "this-text-question-id-would-also-be-uuid",
+                    "name": "Hey, answer this too!!! You can choose your own words :0",
+                    "type": "TextQuestion",
+                    "order": 9001,
+                    "answers": [
+                        
+                    ]
+                }
+            ]
+        }
+    ]
+}
